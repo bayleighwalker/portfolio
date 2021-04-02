@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {background-color: lightgray;}
+
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #637081;
+    color: #637081;
+}
+
+
+.header h1 {
+    display: inline-block;
+    font-size: 52px;
+    background-color: #CEE5f2;
+    padding: 1%;
+    padding-left: 7%;
+
+}
+
+.header div {
+    padding-top: 35px;
+    margin-right: 20px;
+    float: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+   }
+
+
+a:link {
+     color: white;
+     text-decoration: none;
+    border-bottom: solid 4px white;
+      display: inline;
+      padding-bottom: 3px;
+   }
+
+a:hover {
+    color: #CEE5f2;
+}
+
+   
+.header div ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.images
+{width: 50%;
+margin: 1px auto;
+display: block;
+}
+
+
+
+
+
+
+.Banner {
+    background-image: url(images/clouds.jpg);
+  
+    background-size: 770px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 300px;
+  }
+
+  
+  .Banner1 h2 {
+      margin-top: 0px;
+      margin-left: 1200px;
+      padding: 30px;
+    background-color: #CEE5f2;
+    font-size: 55px;
+    color: #637081;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+  align-items: center;
+  padding-right: 20px;
+  }
+  
+  
+
+
+#about-me-left{
+    display: flex;
+    width: 20%;
+    height: 300px;
+    border-right: solid 7px #637081;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    color: #637081;
+    padding-right: 3%;
+    margin-top: 5%;
+}
+
+.about-me-right {
+    color: #3a414b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding-top: 20px;
+    display: flex;
+    width: 55%;
+    height: 300px;
+    justify-content: flex-start;
+    margin-top: 5% ;
+    line-height: 60px;
+
+}
+
+.About-me {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+   
+}
+
+
+#work {
+    padding-right: 37%;
+    padding-top: 60px;
+}
+
+.images , .container {
+    
+    width: 100%;
+    height: min-content;
+}
+
+#werk-left  {
+    display: flex;
+    width: 20%;
+    height: 1150px;
+    border-right: solid 7px #637081;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: flex-end;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    color: #637081;
+    padding-right: 3%;
+    margin-top: 5%;
+  
+    
+}
+
+.Work-left {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+   
+}
+
+.work-right {
+  
+    width: 55%;
+    height: 300px;
+    margin-top: 5% ;
+
+
+}
+
+.container , .container1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    text-align: center;
+    color: #637081;
+  
+   
+    
+
+
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 10px;
+  
+   padding-bottom: 60px;
+  }
+
+  .container h2 , .container1 h2{
+    font-size: 40px;
+    
+  }
+
+  .container h3 , .container1 h3 {
+      font-size: 30px;
+      
+  } 
+
+  .container h2 , .container h3 {
+      background-color: #CEE5f2;
+      padding: 5px;
+      padding-right: 20px;
+      
+  }
+
+
+  .container img:hover , .container1 img:hover{
+opacity: .5;
+  }
+
+  .container1 {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      height: 210px;
+
+    }
+
+  .container1 h2 , .container1 h3 {
+    padding-left: 30px;
+    background-color: #CEE5f2;
+    padding: 5px;
+    padding-right: 20px;
+  }
+
+img {      border: solid 8px #CEE5f2;}
+
+
+.Contact-me {
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly; }
+
+#Contact-Me {
+    margin-top: 0 ;
+    margin-left: 0
+    
+}
+
+
+.About-me li {  display: inline-block;
+padding: 30px;
+color: #3a414b;
+margin-top: 50px;
+
+}
+
+
+.About-me li a:link {
+   
+    font-size: 30px;
+    color: #3a414b;
+}
